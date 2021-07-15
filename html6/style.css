@@ -1,0 +1,37 @@
+input[type=text]{
+    width: 160px;
+    height: 28px;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5%;
+    font-weight: bold;
+    font-size: 24px;
+}
+input[type=email]{
+    width: 160px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 5%;
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+label{
+    color: red;
+}
+input[type=submit]{
+  width: 200px;
+  height: 45px;
+  border: 1px solid red;
+  border-radius: 5%;
+  font-size: 20px;
+  font-weight: bold;
+  background: rgb(138, 151, 125);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input[type=submit]:hover{
+    background: darkblue;
+    color: white;
+}
+    

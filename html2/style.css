@@ -1,0 +1,19 @@
+table{
+    width: 50%;
+    height: 50%;
+    margin: 100px auto;
+    background-color: rgb(34, 105, 105);
+    text-align: center;
+}
+table,th,td{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+.total{
+    text-align: left;
+    background-color: aqua;
+}
+table caption{
+    background-color: cadetblue;
+    color: cornsilk;
+}

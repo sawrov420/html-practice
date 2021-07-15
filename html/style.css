@@ -1,0 +1,36 @@
+
+#heading{
+    font-family: serif;
+    color: rgb(182, 22, 161);
+}
+#wrapper .wrap{
+    /*
+    text-decoration:underline ;*/
+    
+    text-decoration:overline;
+    text-decoration:line-through;
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+p{
+    font-family:sans-serif;
+    line-height: 24px;
+    color: rgb(50, 133, 18);
+}
+.second{
+    color: rgb(177, 152, 9);
+    background-image:url("img/Daco_4453753.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
+}
+.bold{
+    font-style: italic;
+    
+}
+

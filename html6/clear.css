@@ -1,0 +1,21 @@
+img{
+    float: left;
+    
+}
+.ss{
+    clear:both;
+}
+.aa{
+    clear: both;
+}
+.mydiv{
+    width: 150px;
+    height: 150px;
+    background:linear-gradient(to left,rgba(70, 193, 202, 0.774),rgba(72, 131, 207, 0.753));
+    margin-bottom: 50px;
+}
+.mydiv2{
+    width: 150px;
+    height: 150px;
+    background:radial-gradient(rgba(70, 193, 202, 0.774) 40%,rgba(23, 81, 158, 0.753),red 90%)
+}
