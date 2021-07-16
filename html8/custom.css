@@ -1,0 +1,12 @@
+@font-face{
+    font-family:"dog" ;
+    src: url("font/WendyLPStd-Medium.eot")format("eot"),
+    url("font/WendyLPStd-Medium.ttf")format("truetype"),
+    url("font/WendyLPStd-Medium.svg")format("svg"),
+    url("font/WendyLPStd-Medium.woff")format("woff");
+   
+}
+p{
+    font-family:dog;
+    font-size: 2.5rem;
+}

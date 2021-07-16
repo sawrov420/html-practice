@@ -1,0 +1,12 @@
+.nivo-caption{
+    background-color:red;
+    bottom: 100px;
+    color: black;
+}
+.nivoSlider{
+    width: 50%;
+}
+.theme-dark.slider-wrapper{
+    background: none;
+    margin-left: 25%;
+}
