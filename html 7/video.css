@@ -1,0 +1,12 @@
+.my{
+    width:650px;
+    height: 365px;;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+.my2{
+    float: left;
+    margin-right: 100px;
+}

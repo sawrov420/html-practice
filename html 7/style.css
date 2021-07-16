@@ -1,0 +1,80 @@
+.mydiv{
+    animation-name: main;
+    animation-duration: 01s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay: 0ms;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+}
+@keyframes main{
+    from{background-color: red;left: 0px;top: 0px;}
+    to{background-color: skyblue; border-radius: 50%; left: 250px;top: 0px;}
+
+
+}
+.mydiv2{
+    animation-name:main3;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction:inherit;
+    animation-delay: 0ms;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+}
+@keyframes main2{
+    0%{background-color: red;left: 0px;top: 0px;}
+    30%{background-color: seagreen;border-radius: 50%;left: 500px;top: 0px;}
+    60%{left: 500px;top: 250px;background-color: lawngreen;}
+    80%{left: 0px;top: 250px;background-color: rgb(30, 212, 212);}
+    100%{left: 0px;top: 0px;}
+}
+.mydiv3{
+    animation-name:main2;
+    animation-duration: 11s;
+    animation-iteration-count:infinite;
+    animation-direction:inherit;
+    animation-delay: 0ms;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+   
+}
+.mydiv4{
+    animation-name:main2;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction:inherit;
+    animation-delay: 0ms;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    
+
+}
+.mydiv5{
+    animation-name:main3;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction:inherit;
+    animation-delay: 0ms;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    
+
+}
+@keyframes main3{
+    0%{background-color: rgb(83, 106, 235);left: 0px;top: 0px;}
+    30%{background-color: rgb(214, 124, 20);border-radius: 50%;left: 1500px;top: 0px;}
+    60%{left: 1500px;top: 250px;background-color: lawngreen;}
+    80%{left: 0px;top: 250px;background-color: rgb(129, 33, 46);}
+    100%{left: 0px;top: 0px;}
+}

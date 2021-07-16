@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainwrap{
+    
+    
+}
+
+.wrapper{
+    width: 960px;
+    margin: 20px auto;
+    
+}
+img{
+    width: 300px;
+    float: left;
+    
+}
+.div{
+    width: 300px;
+  
+    float: left;
+    
+    
+}
+.div h2{
+    font-family: serif;
+    color: rgb(241, 170, 14);
+    margin-bottom: 10px;
+
+
+}
+.div p{
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.div a{
+    text-align: center;
+    font-size: 1.5rem;
+
+    padding: %;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 19, 107);
+    display: block;
+}
+.div0{
+    margin-right: 30px;
+}
+.div1{
+    margin-right: 30px;
+}
