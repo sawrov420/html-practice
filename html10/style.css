@@ -1,0 +1,13 @@
+p{
+    font-family: serif;
+    font-size: 2.9rem;
+    text-shadow:2px 5px 5px rgb(37, 18, 18);
+    text-align: center;
+}
+div{
+    width: 250px;
+    height: 250px;
+    background:linear-gradient(to right, rgba(33, 209, 121, 0.781),rgba(93, 34, 202, 0.836));
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px 0px rgb(21, 22, 21);
+}
