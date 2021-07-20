@@ -1,0 +1,12 @@
+h2{
+    font-size: 2rem;
+    color: red;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.stick{
+    position: fixed;
+    top: 0;
+    z-index: 99999999;
+}

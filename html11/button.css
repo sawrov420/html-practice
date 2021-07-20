@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    margin: 200px;
+    text-decoration: none;
+    display:block;
+    
+}
+.content{
+    padding: 10px 30px;
+    background: gray;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    z-index: 2;
+    overflow: hidden;
+    display: inline-block;
+}
+.content:hover{
+    background: none;
+    color: white;
+}
+.content::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    top: 0;
+    left: -50%;
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+.content::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(139, 80, 11);
+    top: 0;
+    right: -50%;
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+.button:hover .content::after{
+    right:0%;
+}
+.button:hover .content::before{
+    left: 0%;
+}

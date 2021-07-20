@@ -1,0 +1,15 @@
+#social{
+    list-style-type: none;
+    border: 2px solid rgb(97, 22, 22);
+    width: 464px;
+    padding: 20px;
+    margin: 2rem auto;
+}
+#social li{
+    margin-right: 10px;
+    display: inline;
+}
+#social img{
+    width:64px ;
+    height:64px ;
+}

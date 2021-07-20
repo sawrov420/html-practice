@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 200px;
+}
+h2::before{
+    content: "sawrov";
+    color: aqua;
+    background-color: black;
+    margin-right: 2rem;
+}
+h2::after{
+    content: "hasan";
+    color: aqua;
+    background-color: black;
+    margin-left: 2rem;
+}
+div{
+    width: 300px;
+    height: 250px;
+    background: linear-gradient(to top,rgba(70, 214, 147, 0.685), rgba(48, 48, 202, 0.753));
+    margin: 0 auto;
+    text-align: center;
+}
+div:before{
+    content: "sawrov";
+}
+div::after{
+    content: "hasan";
+}
