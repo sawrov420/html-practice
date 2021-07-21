@@ -1,0 +1,28 @@
+ul{
+    list-style-type: none;
+    margin: 200px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: serif;
+    background: gray;
+    display: inline-block;
+    padding: 10px 60px;
+    margin: 5px 0;
+}
+ul li a:hover{
+    background-color: orange;
+    color: rgb(0, 0, 0);
+
+}
+ul li a:active{
+    background-color: teal;
+    font-size: 2.5rem;
+ 
+}
+ul li a:focus{
+      border: 2px solid rgb(5, 5, 5);  
+}
+ul li a:visited{
+    color: rgb(14, 121, 112);
+}
